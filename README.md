@@ -74,11 +74,11 @@ In healthcare, efficient appointment scheduling is crucial to ensure patients re
 ## Contributors
 
 Contributions to this project are.
-[Name1](link) Roll No
-[Name2](link) Roll No
-[Name3](link) Roll No
-[Name4](link) Roll No
-[Name5](link) Roll No
+- [Name1](link) Roll No 
+- [Name2](link) Roll No
+- [Name3](link) Roll No
+- [Name4](link) Roll No
+- [Name5](link) Roll No
 
 Mentor : [Snahal Kumar](https://github.com/snahal04) : 20bec081
 
