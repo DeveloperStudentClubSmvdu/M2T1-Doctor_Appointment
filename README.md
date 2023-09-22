@@ -74,7 +74,7 @@ In healthcare, efficient appointment scheduling is crucial to ensure patients re
 ## Contributors
 
 Contributions to this project are.
-- [Name1](link) Roll No 
+- [Aarsh Saxena](https://github.com/aarshsaxena) : 21bec001
 - [Kulkul Singh](https://github.com/Techkulkul) : 22bcs047
 - [Pranav Kumar Kanth](https://github.com/pranavkanth) : 22bcs063
 - [Tanisha Pargal](https://github.com/TanishaPargal) : 21bcs094
