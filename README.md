@@ -78,7 +78,6 @@ Contributions to this project are.
 - [Kulkul Singh](https://github.com/Techkulkul) : 22bcs047
 - [Pranav Kumar Kanth](https://github.com/pranavkanth) : 22bcs063
 - [Tanisha Pargal](https://github.com/TanishaPargal) : 21bcs094
-- [Name5](link) Roll No
 
 Mentor : [Snahal Kumar](https://github.com/snahal04) : 20bec081
 
