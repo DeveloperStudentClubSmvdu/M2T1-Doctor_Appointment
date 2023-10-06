@@ -1,0 +1,39 @@
+//M2T1
+//DB Design made on dbdiagram.io
+// Link to view the db design: https://dbdiagram.io/d/651fb01dffbf5169f0280b7c
+
+Table users {
+  email varchar [primary key]
+  first_name varchar
+  last_name varchar
+  mobile_number bigint
+  gender char
+  password text [note: 'encrypted form']
+  dob date
+
+}
+
+Table doctors {
+  doctorid integer [primary key]
+  doctor_name varchar
+  yearofexp integer
+  speciality varchar
+  gender char
+  age integer
+}
+
+Table appoinments {
+  id integer [primary key]
+  email varchar 
+  first_name varchar
+  last_name varchar
+  gender char
+  doctor_name varchar
+  doctorid integer
+  disease varchar
+  appointment_time timestamp
+  booking_time timestamp
+}
+
+Ref: users.email > appoinments.email 
+Ref: doctors.doctorid > appoinments.doctorid
