@@ -1,0 +1,216 @@
+//HTTP method: POST
+//Endpoint /user
+
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "email": {
+                "type": "string"
+            },
+            "firstName": {
+                "type": "string"
+            },
+            "lastName": {
+                "type": "string"
+            },
+            "mobileNumber": {
+                "type": "integer"
+            },
+            "gender": {
+                "type": "string"
+            },
+            "dob": {
+                "type": "string"
+            },
+            "id": {
+                "type": "integer"
+            },
+            "doctorName": {
+                "type": "string"
+            },
+            "doctorId": {
+                "type": "integer"
+            },
+            "disease": {
+                "type": "string"
+            },
+            "appointmentTime": {
+                "type": "string"
+            },
+            "bookingTime": {
+                "type": "string"
+            },
+            "yearOfExperience": {
+                "type": "integer"
+            },
+            "speciality": {
+                "type": "string"
+            },
+            "age": {
+                "type": "integer"
+            }
+        },
+        "required": [
+            "email",
+            "firstName",
+            "lastName",
+            "mobileNumber",
+            "gender",
+            "dob",
+            "id",
+            "doctorName",
+            "doctorId",
+            "disease",
+            "appointmentTime",
+            "bookingTime",
+            "yearOfExperience",
+            "speciality",
+            "age"
+        ],
+        "x-apidog-orders": [
+            "email",
+            "firstName",
+            "lastName",
+            "mobileNumber",
+            "gender",
+            "dob",
+            "doctorId",
+            "doctorName",
+            "yearOfExperience",
+            "speciality",
+            "age",
+            "id",
+            "disease",
+            "appointmentTime",
+            "bookingTime"
+        ]
+    }
+}
+
+
+//HTTP method: GET
+//Endpoint /doctor
+
+[
+    {
+        "doctorId": 1,
+        "doctorName": "Dr. Smith",
+        "yearOfExperience": 10,
+        "speciality": "General Medicine",
+        "gender": "M",
+        "age": 45
+    },
+    {
+        "doctorId": 2,
+        "doctorName": "Dr. Jones",
+        "yearOfExperience": 5,
+        "speciality": "Pediatrics",
+        "gender": "F",
+        "age": 30
+    }
+]
+
+
+
+//HTTP method: GET
+//Endpoint /Appoinment
+{
+    "type": "array",
+    "items": {
+        "type": "object",
+        "properties": {
+            "id": {
+                "type": "integer"
+            },
+            "email": {
+                "type": "string"
+            },
+            "firstName": {
+                "type": "string"
+            },
+            "lastName": {
+                "type": "string"
+            },
+            "gender": {
+                "type": "string"
+            },
+            "doctorName": {
+                "type": "string"
+            },
+            "doctorId": {
+                "type": "integer"
+            },
+            "disease": {
+                "type": "string"
+            },
+            "appointmentTime": {
+                "type": "string"
+            },
+            "bookingTime": {
+                "type": "string"
+            }
+        },
+        "required": [
+            "id",
+            "email",
+            "firstName",
+            "lastName",
+            "gender",
+            "doctorName",
+            "doctorId",
+            "disease",
+            "appointmentTime",
+            "bookingTime"
+        ],
+        "x-apidog-orders": [
+            "id",
+            "email",
+            "firstName",
+            "lastName",
+            "gender",
+            "doctorName",
+            "doctorId",
+            "disease",
+            "appointmentTime",
+            "bookingTime"
+        ]
+    }
+}
+
+
+//HTTP method: GET
+//Endpoint /face
+
+{
+    "type": "object",
+    "properties": {
+        "faceMatches": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "properties": {
+                    "faceId": {
+                        "type": "string"
+                    },
+                    "boundingBox": {
+                        "type": "object",
+                        "properties": {},
+                        "x-apidog-orders": []
+                    }
+                },
+                "x-apidog-orders": [
+                    "faceId",
+                    "boundingBox"
+                ]
+            }
+        }
+    },
+    "required": [
+        "faceMatches"
+    ],
+    "x-apidog-orders": [
+        "faceMatches"
+    ]
+}
