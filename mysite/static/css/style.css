@@ -154,15 +154,16 @@ hr{
 
 .left-disease{
     text-align: left;
-    margin-left: 200px;
+    margin-left: 300px;
     margin-top: 20px;
     font-size: 25px;
     padding: 30px;
 }
 
 .right-disease{
-    text-align: right;
+    text-align: left;
     margin-left: 200px;
+    margin-right: auto;
     margin-top: 20px;
     font-size: 25px;
     padding: 30px;
@@ -175,6 +176,7 @@ hr{
     margin-top: 30px;
     margin-left: 100px;
 }
+
 .footer {
     background-color: teal;
     margin-top: 20px;
@@ -194,56 +196,12 @@ hr{
     display: block;
     font-size: 20px;
 }
+.right-footer a{
+    text-decoration: none;
+    color: white;
+}
 
 .image{
     width: 60px;
     height: 60px;
 }
-/* styles.css */
-
-footer {
-    background-color: #468B74;
-    color: #fff;
-    padding: 20px 0;
-}
-
-.footer-content {
-    max-width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.footer-logo {
-    display: flex;
-    align-items: center;
-}
-
-.footer-logo img {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-
-.footer-links ul {
-    list-style: none;
-    padding: 0;
-    display: flex;
-}
-
-.footer-links li {
-    margin-right: 20px;
-}
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-social a {
-    color: #fff;
-    text-decoration: none;
-    margin-right: 10px;
-}
-
