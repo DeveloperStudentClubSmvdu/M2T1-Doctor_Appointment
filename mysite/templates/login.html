@@ -10,7 +10,8 @@
 <body>
     <div class="modal">
         
-        <form class="modal-content" >
+        <form class="modal-content" method="post" action="/login/">
+          {csrf_token}
           <div class="container">
             <h1>Sign in</h1>
             <p>Please fill in this form to login.</p>
@@ -21,7 +22,6 @@
             <label for="psw"><b>Password</b></label>
             <input type="password" placeholder="Enter Password" name="psw" required>
       
-           
             
             
             <label>
