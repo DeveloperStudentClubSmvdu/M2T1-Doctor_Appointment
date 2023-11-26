@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Nav Bar Start */
+
+.navbar {
+    height: 70px;
+    background-color: #1d9f90;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly
+}
+
+.nav-logo {
+    height: 50px;
+    width: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* text-align: center; */
+}
+
+.logo {
+    height: 50px;
+    width: 100%;
+    font-size: 35px;
+    color: white;
+}
+
+.nav-services {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    text-align: center;
+}
+
+.nav-services p {
+    display: inline;
+    color: white;
+    margin-right: 40px;
+    font-size: 1.2rem;
+}
+
+.nav-call {
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    color: darkgreen;
+}
+
+.nav-call i {
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 3px;
+}
+
+/* Nav Bar End */
+
+/* Panel Bar Start */
+
+.panel {
+    height: 80px;
+    background-color: #c6fff8;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-search {
+    height: 30px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+.panel-search i {
+    font-size: 22px;
+    padding-left: 4px;
+    color: #003a70;
+}
+
+.panel-services {
+    margin-left: 30px;
+}
+
+.panel-all {
+    justify-content: space-evenly;
+    margin: 5px;
+    border: 2px solid #c6fff8;
+    background-color: #c6fff8;
+    font-size: 1rem;
+    color: darkgreen;
+}
+
+.panel-all:hover {
+    border: 2px solid rgb(58, 152, 159);
+}
+
+/* Panle Bar End  */
+
+/* Discount Start */
+
+.discount {
+    background-color: #003a70;
+    color: white;
+    text-align: center;
+    height: 30px;
+    padding-top: 10px;
+}
+
+/* Discount End */
+
+/* mission Start */
+
+.mission {
+    height: 300px;
+    background-color: #c6fff8;
+}
+
+.mission-msg {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.mission-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    background-color: white;
+    
+}
+
+.mission-search {
+    height: 30px;
+    border: 2px solid darkgreen;
+}
+
+.mission-input {
+    font-size: 1rem;
+    width: 300px;
+    height: 30px;
+    border: none;
+}
+
+.mission-book {
+    height: 30px;
+    width: 80px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+/* mission end */
+
+/* doctor's box start */
+
+.doctor-section {
+    display: flex;
+    margin-top: 20px;
+    /* background-color: rgb(193, 252, 232); */
+}
+
+.box {
+    height: 200px;
+    border: 2px solid lightgreen;
+    margin: 10px;
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: #b9fedf; */
+}
+
+.box i {
+    margin-left: 3px;
+}
+
+.doctor {
+    color: rgb(0, 97, 23);
+    margin-left: 10px;
+}
+
+main {
+    background-color: rgb(207, 235, 244);
+    height: 550px;
+}
+
+.main-view {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.view-more {
+    height: 50px;
+    width: 200px;
+    background-color: darkgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 5px;
+}
+
+/* doctor's box end */
+
+
+footer {
+    margin-top: 1rem;
+}
+
+.foot-panel1 {
+    height: 50px;
+    background-color: #001e3e;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foot-panel2 {
+    background-color: #222f3d;
+    color: white;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.2rem;
+}
+
+ul a {
+    display: block;
+    margin: 10px;
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.foot-panel3 {
+    height: 70px;
+    background-color: #001e4d;
+    border-top: 0.5px solid rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.foot-pimg {
+    margin-top: 20px;
+    color: white;
+}
+
+.foot-panel4 {
+    background-color: #0f1111;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    text-align: center;
+}
+
+.pages a {
+    text-decoration: none;
+    color: white;
+}
+/* Footer End */
